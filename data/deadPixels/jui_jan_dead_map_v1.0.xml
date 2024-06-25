@@ -1,0 +1,61 @@
+<?xml-model
+href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1E00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Ancillary xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:psa="http://psa.esa.int/psa/v1"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1B00.xsd
+                        http://psa.esa.int/psa/v1 https://psa.esa.int/psa/v1/PDS4_PSA_1200.xsd">
+    <Identification_Area>
+        <logical_identifier>
+            urn:esa:psa:juice_janus:calibration_files:jui_jan_dead_map_v0.1</logical_identifier>
+        <version_id>0.1</version_id>
+        <title>JANUS Dead Pixel Map</title>
+        <information_model_version>1.1.0.0</information_model_version>
+        <product_class>Product_Ancillary</product_class>
+        <Modification_History>
+            <Modification_Detail>
+                <modification_date>2023-03-23</modification_date>
+                <version_id>0.1</version_id>
+                <description>Preliminary version</description>
+                </Modification_Detail>
+            </Modification_History>
+    </Identification_Area>
+    <Reference_List>
+        <Internal_Reference>
+            <lid_reference>
+                urn:nasa:pds:context:target:calibration.non_science
+</lid_reference>
+            <reference_type>ancillary_to_data</reference_type>
+        </Internal_Reference>
+    </Reference_List>
+    <File_Area_Ancillary>
+        <File>
+            <file_name>jui_jan_dead_map_v0.1.dat</file_name>
+            <local_identifier>jui_jan_dead_map_v0.1</local_identifier>
+            <creation_date_time>2023-03-16T19:13:00</creation_date_time>
+            <file_size unit="byte">33554432</file_size>
+            <md5_checksum>510b601cbb9098762de87b4796ad425a</md5_checksum>
+            <comment>Janus Dead Pixel Map</comment>
+        </File>
+        <Array_2D_Image>
+            <name>CAL_CASSIS_CASSIS</name>
+            <offset unit="byte">0</offset>
+            <axes>2</axes>
+            <axis_index_order>Last Index Fastest</axis_index_order>
+            <Element_Array>
+                    <data_type>SignedLSB8</data_type>
+            </Element_Array>
+            <Axis_Array>
+                <axis_name>Line</axis_name>
+                <local_identifier>line</local_identifier>
+                <elements>2000</elements>
+                <sequence_number>1</sequence_number>
+            </Axis_Array>
+            <Axis_Array>
+                <axis_name>Sample</axis_name>
+                <local_identifier>sample</local_identifier>
+                <elements>1504</elements>
+                <sequence_number>2</sequence_number>
+            </Axis_Array>
+        </Array_2D_Image>
+    </File_Area_Ancillary>
+</Product_Ancillary>

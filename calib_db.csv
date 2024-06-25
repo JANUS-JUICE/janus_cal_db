@@ -1,0 +1,19 @@
+Description,Calibration_Step,Size,Mask,Type,Func,Filter,Start,End,File
+"Dead Pixels",deadPixels,2000-1504,-1200.0,bool,mask,all,2023-06-01,Now,data/deadPixels/jui_jan_dead_map_v1.0.dat
+"Bad Pixels",badPixels,2000-1504,-1100.0,bool,mask,all,2023-06-01,Now,data/badPixels/jui_jan_bad_map_v1.0.dat
+"Saturated Pixels",saturatedPixels,2000-1504,-1000.0,float64,threshold,all,2023-06-01,Now,data/saturatedPixels/jui_jan_sat_map_v1.0.dat
+"Dark Correction",darkCorrection,2-2000-1504,0,float32,linearMult,all,2023-06-01,Now,data/darkCorrection/jui_jan_dark_coef_v1.0.dat
+"Offset Correction",fpnCorrection,2000-1504,0,int16,subtraction,all,2023-06-01,Now,data/offsetCorrection/jui_jan_fpn_v1.0.dat
+"Radiometric Calibration",radCalibration,3-2000-1504,0,float64,quad,1,2023-06-01,Now,data/radCalibration/jui_jan_rad_f1_v1.0.dat
+"Radiometric Calibration",radCalibration,3-2000-1504,0,float64,quad,2,2023-06-01,Now,data/radCalibration/jui_jan_rad_f2_v1.0.dat
+"Radiometric Calibration",radCalibration,3-2000-1504,0,float64,quad,3,2023-06-01,Now,data/radCalibration/jui_jan_rad_f3_v1.0.dat
+"Radiometric Calibration",radCalibration,3-2000-1504,0,float64,quad,4,2023-06-01,Now,data/radCalibration/jui_jan_rad_f4_v1.0.dat
+"Radiometric Calibration",radCalibration,3-2000-1504,0,float64,quad,5,2023-06-01,Now,data/radCalibration/jui_jan_rad_f5_v1.0.dat
+"Radiometric Calibration",radCalibration,3-2000-1504,0,float64,quad,6,2023-06-01,Now,data/radCalibration/jui_jan_rad_f6_v1.0.dat
+"Radiometric Calibration",radCalibration,3-2000-1504,0,float64,quad,7,2023-06-01,Now,data/radCalibration/jui_jan_rad_f7_v1.0.dat
+"Radiometric Calibration",radCalibration,3-2000-1504,0,float64,quad,8,2023-06-01,Now,data/radCalibration/jui_jan_rad_f8_v1.0.dat
+"Radiometric Calibration",radCalibration,3-2000-1504,0,float64,quad,9,2023-06-01,Now,data/radCalibration/jui_jan_rad_f9_v1.0.dat
+"Radiometric Calibration",radCalibration,3-2000-1504,0,float64,quad,10,2023-06-01,Now,data/radCalibration/jui_jan_rad_f10_v1.0.dat
+"Radiometric Calibration",radCalibration,3-2000-1504,0,float64,quad,11,2023-06-01,Now,data/radCalibration/jui_jan_rad_f11_v1.0.dat
+"Radiometric Calibration",radCalibration,3-2000-1504,0,float64,quad,12,2023-06-01,Now,data/radCalibration/jui_jan_rad_f12_v1.0.dat
+"Radiometric Calibration",radCalibration,3-2000-1504,0,float64,quad,13,2023-06-01,Now,data/radCalibration/jui_jan_rad_f13_v1.0.dat
