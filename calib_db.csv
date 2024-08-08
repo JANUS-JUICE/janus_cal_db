@@ -4,7 +4,7 @@ Description,Calibration_Step,Size,Mask,Type,Func,Filter,Start,End,File
 "Saturated Pixels",saturatedPixels,2000-1504,-1000.0,float64,threshold,all,2023-05-01,Now,data/saturatedPixels/jui_jan_sat_map_v1.0.dat
 "Dark Correction",darkCorrection,2-2000-1504,0,float32,linearMult,all,2023-05-01,Now,data/darkCorrection/jui_jan_dark_coef_v1.0.dat
 "Offset Correction",fpnCorrection,2000-1504,0,int16,subtraction,all,2023-05-01,Now,data/offsetCorrection/jui_jan_fpn_v1.0.dat
-"Radiometric Calibration",radCorrection,2000-1504-20,0,float32,spline,1,2023-05-01,Now,data/radCalibration/jui_jan_rad_f1_v1.0.npz
+"Radiometric Calibration",radCorrection,2000-1504-20,0,float32,spline,1,2023-05-01,Now,data/radCalibration/jui_jan_rad_f01_v1.0.npz
 "Radiometric Calibration",radCalibration,3-2000-1504,0,float64,quad,2,2023-05-01,Now,data/radCalibration/jui_jan_rad_f2_v1.0.dat
 "Radiometric Calibration",radCalibration,3-2000-1504,0,float64,quad,3,2023-05-01,Now,data/radCalibration/jui_jan_rad_f3_v1.0.dat
 "Radiometric Calibration",radCalibration,3-2000-1504,0,float64,quad,4,2023-05-01,Now,data/radCalibration/jui_jan_rad_f4_v1.0.dat
