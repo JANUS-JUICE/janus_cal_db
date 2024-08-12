@@ -2,7 +2,7 @@ Description,Calibration_Step,Size,Mask,Type,Func,Filter,Start,End,File,Arrays
 "Dead Pixels",deadPixels,2000-1504,-1200.0,bool,mask,all,2023-05-01,Now,data/deadPixels/jui_jan_dead_map_v1.0.dat,Null
 "Bad Pixels",badPixels,2000-1504,-1100.0,bool,mask,all,2023-05-01,Now,data/badPixels/jui_jan_bad_map_v1.0.dat,Null
 "Saturated Pixels",saturatedPixels,2000-1504,-1000.0,float64,threshold,all,2023-05-01,Now,data/saturatedPixels/jui_jan_sat_map_v1.0.dat,Null
-"Dark Correction",darkCorrection,2-2000-1504,0,float32,linearMult,all,2023-05-01,Now,data/darkCorrection/jui_jan_dark_coef_v1.0.dat,Null
+"Dark Correction",darkCorrection,2-2000-1504,0,float32,linearTemp,all,2023-05-01,Now,data/darkCorrection/jui_jan_dark_v1.0.npz,x0t0-x0t1-x1t0-x1t1
 "Offset Correction",fpnCorrection,2000-1504,0,int16,subtraction,all,2023-05-01,Now,data/offsetCorrection/jui_jan_fpn_v1.0.dat,Null
 "Radiometric Calibration",radCorrection,2000-1504-20,0,float32,spline,1,2023-05-01,Now,data/radCorrection/jui_jan_rad_f01_v1.0.npz,knots-coefficients
 "Radiometric Calibration",radCorrection,2000-1504-20,0,float32,spline,2,2023-05-01,Now,data/radCorrection/jui_jan_rad_f02_v1.0.npz,knots-coefficients
